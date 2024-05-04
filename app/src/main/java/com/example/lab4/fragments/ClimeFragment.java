@@ -1,4 +1,4 @@
-package com.example.lab4;
+package com.example.lab4.fragments;
 
 import android.os.Bundle;
 
@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.lab4.R;
 import com.example.lab4.databinding.FragmentClimeBinding;
 
 

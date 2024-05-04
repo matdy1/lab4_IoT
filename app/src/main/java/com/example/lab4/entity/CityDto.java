@@ -1,15 +1,16 @@
 package com.example.lab4.entity;
 
+import java.util.List;
+
 public class CityDto {
 
-    private City[] lista;
+    private List<City> lista;
 
-    public City[] getLista() {
+    public List<City> getLista() {
         return lista;
     }
 
-    public void setLista(City[] lista) {
+    public void setLista(List<City> lista) {
         this.lista = lista;
     }
-
 }

@@ -5,8 +5,8 @@ import java.io.Serializable;
 public class City implements Serializable {
 
     private String name;
-    private Double lat;
-    private Double lon;
+    private double lat;
+    private double lon;
 
     public String getName() {
         return name;
@@ -16,19 +16,19 @@ public class City implements Serializable {
         this.name = name;
     }
 
-    public Double getLat() {
+    public double getLat() {
         return lat;
     }
 
-    public void setLat(Double lat) {
+    public void setLat(double lat) {
         this.lat = lat;
     }
 
-    public Double getLon() {
+    public double getLon() {
         return lon;
     }
 
-    public void setLon(Double lon) {
+    public void setLon(double lon) {
         this.lon = lon;
     }
 }

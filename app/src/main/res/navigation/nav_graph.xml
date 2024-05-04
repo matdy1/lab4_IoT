@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/geoFragment"
-        android:name="com.example.lab4.GeoFragment"
+        android:name="com.example.lab4.fragments.GeoFragment"
         android:label="fragment_geo"
         tools:layout="@layout/fragment_geo" >
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/climeFragment"
-        android:name="com.example.lab4.ClimeFragment"
+        android:name="com.example.lab4.fragments.ClimeFragment"
         android:label="fragment_clime"
         tools:layout="@layout/fragment_clime" >
         <action

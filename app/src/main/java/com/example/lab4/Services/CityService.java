@@ -13,7 +13,7 @@ public interface CityService {
 
     // de la forma /?q={cityName}&limit=1&appid={API//key}
     @GET("/geo/1.0/direct")
-    Call<List<City>> getCity(@Query("q") String i,
-                                @Query("limit") String limit,
+    Call<List<City>> getCity(@Query("q") String q,
+                                @Query("limit") int limit,
                                 @Query("appid") String appid);
 }

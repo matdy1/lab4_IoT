@@ -35,10 +35,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Lima"
+                        android:text="nombre"
                         android:textSize="20sp"
                         android:textStyle="bold"/>
 
+                    <TextView
+                        android:id="@+id/temp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="temperatura"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -48,18 +56,25 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/lat"
+                        android:id="@+id/min"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="latitud" />
+                        android:text="tempM" />
 
                     <TextView
-                        android:id="@+id/lon"
+                        android:id="@+id/max"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="longitud" />
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/viento"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
                 </LinearLayout>
             </LinearLayout>
 
